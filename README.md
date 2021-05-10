@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-<!--Missing here-->
+- GitPages - [@Preview](https://jesse-snow.github.io/Stats-preview-card-component)
 
 
 ### Built with

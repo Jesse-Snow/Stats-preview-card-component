@@ -74,7 +74,7 @@ strong {
 .card__data {
   padding-top:50px;
 }
-
+/* Modify these */
 .card__img img{
   filter:sepia(64%) saturate(797%) hue-rotate(236deg) brightness(50%) contrast(88%);  
   width:100%;
@@ -84,7 +84,11 @@ strong {
   border-bottom-right-radius: 10px;
 }
 @media only screen and (max-width: 900px) {
-  .card { flex-wrap:wrap-reverse;}
+  .card { 
+    flex-direction: column-reverse;
+    width:80%;
+    margin:20px auto;
+  }
   .card__img img{ 
     border-top-left-radius: 10px;
     border-bottom-right-radius: 0;
